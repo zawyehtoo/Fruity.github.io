@@ -1,8 +1,6 @@
-const menuTag=document.querySelector(".menu")
-const menubarTag=document.querySelector(".menubar")
+const menubartag=document.querySelector(".menubar-icon")
+const menutag=document.querySelector(".menubar")
 
-menubarTag.addEventListener("click",()=>{
-    menuTag.classList.toggle("burger")
+menubartag.addEventListener("click",()=>{
+    menutag.classList.toggle("show")
 })
-
-
